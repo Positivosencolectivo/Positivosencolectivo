@@ -1,0 +1,18 @@
+
+body, html{ margin:0; padding:0;}
+.header{ border-top:1px solid white;background:white; color:#333; height:150px; width:100%; font-family: 'Lobster', cursive; text-align:center}
+.menu{ height:30px; width:100%; text-align:center; z-index: 3;}
+.wrapper{ height:auto; width:100%; padding-top:20px;}
+.fixed{position:fixed; top:0;padding-right: 50px;}
+.Encabezado{line-height: 1.4;font-size: 1.5rem;}
+.btn-danger {background-color: #ff3547!important;color: #fff!important;}
+.info-color-denuncia {background-color: #F61F31!important;}
+.info-color-consulta {background-color: #26B2E1!important;}
+.card-up {height: 170px;width:100%;border-top-left-radius: .25rem;border-top-right-radius: .25rem;position: absolute;z-index: 1;}
+.avatar { margin-left: auto!important; margin-right: auto!important; height: 250px; width:100%; position: relative; z-index: 2;}
+.rounded-circle {border-radius: 50%!important;border: white 10px solid;}
+.borde{ background-image: linear-gradient(to right, red , white);
+        height: 4px;
+        width:100%;
+        position: absolute;
+        z-index: 1;}
