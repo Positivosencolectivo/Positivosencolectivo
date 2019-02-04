@@ -10,7 +10,7 @@ body, html{ margin:0; padding:0;}
 .info-color-consulta {background-color: #26B2E1!important;}
 .btn-rounded {-webkit-border-radius: 10em;border-radius: 10em;}
 .btn-outline-INFO {border: 2px solid #fa0015!important;background-color: transparent!important;color: #fa0015!important;}
-.color-lateral {padding:50px;background-color: #cdcece!important;height: 100px;width:100%;border-bottom-left-radius: .3rem;border-bottom-right-radius: .3rem;}
+.color-lateral {background-color: #cdcece!important;width: 100%;}
 .card-up {height: 170px;width:100%;border-top-left-radius: .25rem;border-top-right-radius: .25rem;position: absolute;z-index: 1;}
 .avatar { margin-left: auto!important; margin-right: auto!important; height: 250px; width:100%; position: relative; z-index: 2;}
 .rounded-circle {border-radius: 50%!important;border: white 10px solid;}
@@ -32,3 +32,4 @@ body, html{ margin:0; padding:0;}
 .social_bookmarks .iconinstagram:hover{background-color: #2A5B83;}
 .social_bookmarks li:hover a{background: transparent url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Sprite/icon-social-reflect.png?raw=true") no-repeat;}
 .footer-inner {padding-top: 30px; padding-right: 15px; padding-bottom: 30px;padding-left: 15px;}
+.bordelateral{border: 20px solid white!important;border-radius: 1rem;}
