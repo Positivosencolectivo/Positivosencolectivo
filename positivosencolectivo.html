@@ -16,8 +16,20 @@
   <link href="css/style.css" rel="stylesheet">
   <style>
 .Inicio{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/baner11.png?raw=true");min-height: 100vh; background-position: center;background-repeat: no-repeat; background-size: cover;}
-.navbarcolor{background-color: #d50000;}
+.top-nav-collapse {background-color: #d50000 !important;}
 .nav-item.activo {font-size: 1.1rem;text-decoration: underline #ffffff;}
+.Nosotros{background-image: url("../images/PNG/Fondos/FONDOAZULOSCURO.png");min-height: 100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.navbar{color:#d50000;}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: #5e5e5e;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
  
   
   </style>
@@ -26,41 +38,21 @@
 <body>
   <!-- Start your project here-->
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark rojo navbarcolor">
-
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">
-                <img src="https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Logos/Poslogo.png?raw=true" height="60" alt="mdb logo">
-              </a>      
-        <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
-      
-          <!-- Links -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item activo">
-              <a class="nav-link" href="#">APRENDE
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CUIDATE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ENTERATE</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CONSULTANOS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">DENUNCIA</a>
-            </li>
-          </ul>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" id="navbar">
+        <div class="container"><a class="navbar-brand" href="#"><strong>POSITIVOS EN COLECTIVO</strong></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link active waves-effect waves-light" href="#Inicio">INICIO</a></li>
+              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="#Nosotros">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="#Aprende">APRENDE</a></li>
+              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="#Cuidate">CUIDATE</a></li>
+              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="#Enterate">ENTERATE</a></li>
+              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="#Consultanos">CONSULTANOS</a></li>
+              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="#Denuncia">DENUNCIA</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
       <!--/.Navbar-->
 <section class="Inicio d-flex align-items-center">
@@ -71,6 +63,20 @@
         </div>
     </div>
 </div>
+</section>
+<section class="Nosotros" id="Nosotros">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h2 class="h2-responsive font-weight-bold">POSITIVOS EN COLECTIVO</h2>
+                <p class="text-justify">Somos una asociación civil sin fines de lucro constituida por personas con VIH representadas por nuestro fundador y vocero principal del movimiento, el señor <a href="https://twitter.com/mauricioccs?lang=es" target="blank">Mauricio Gutiérrez</a>. En "Positivos en Colectivo" trabajamos en favor de asuntos de nuestro interés y necesidades, concentrados en la situación de salud, calidad de vida, promoción, protección, defensa y exigibilidad de nuestros derechos.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+
 </section>
 
 
