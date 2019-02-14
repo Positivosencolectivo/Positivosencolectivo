@@ -1,86 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Positivos en Colectivo</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body>
-
-  <div id="mdb-preloader" class="flex-center">
-    <div id="preloader-markup"></div>
-  </div>
-  <!-- Start your project here-->
-
-  <div class="container">
-      <div class="row">
-
-
-        <div class="bordelateral">
-          <a href=""><img class="img-fluid" src="https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Lateral/Haztelaprueba.png?raw=true" alt="Responsive image" /></a>
-            <div class="pl-3 py-2 color-lateral d-flex justify-content-start">
-              <a><button type="button" class="btn btn-outline-INFO btn-rounded waves-effect btn-sm btn-block">+ INFO</button></a>
+<b:section class='foot-bar-social blue' id='Footer social widget' maxwidgets='1' name='Footer Social Widget'>
+  <b:widget id='LinkList250' locked='false' title='Social Media Icons' type='LinkList' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='text-9'>instagram</b:widget-setting>
+      <b:widget-setting name='link-9'>#</b:widget-setting>
+      <b:widget-setting name='text-8'>youtube</b:widget-setting>
+      <b:widget-setting name='link-7'>#</b:widget-setting>
+      <b:widget-setting name='link-8'>#</b:widget-setting>
+      <b:widget-setting name='text-10'>pinterest</b:widget-setting>
+      <b:widget-setting name='link-5'>#</b:widget-setting>
+      <b:widget-setting name='link-6'>#</b:widget-setting>
+      <b:widget-setting name='link-3'>#</b:widget-setting>
+      <b:widget-setting name='link-4'>#</b:widget-setting>
+      <b:widget-setting name='text-1'>dribbble</b:widget-setting>
+      <b:widget-setting name='text-0'>facebook</b:widget-setting>
+      <b:widget-setting name='text-3'>twitter</b:widget-setting>
+      <b:widget-setting name='text-2'>vine</b:widget-setting>
+      <b:widget-setting name='text-5'>delicious</b:widget-setting>
+      <b:widget-setting name='text-4'>rss</b:widget-setting>
+      <b:widget-setting name='text-7'>tumblr</b:widget-setting>
+      <b:widget-setting name='text-6'>bloglovin</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-1'>#</b:widget-setting>
+      <b:widget-setting name='link-2'>#</b:widget-setting>
+      <b:widget-setting name='link-0'>#</b:widget-setting>
+      <b:widget-setting name='link-10'>#</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+            <div class='widget-content'>
+              <ul id='social'>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name'/></li>
+                </b:loop>
+              </ul>
             </div>
-          </div>
-
-        <div class="bordelateral my-3">
-          <a href=""><img class="img-fluid" src="https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Lateral/DONA.png?raw=true" alt="Responsive image" /></a>
-            <div class="pl-3 py-2 color-lateral d-flex justify-content-start">
-             <a><button type="button" class="btn btn-outline-INFO btn-rounded waves-effect btn-sm btn-block">+ INFO</button></a>
-            </div>
-          </div>
-
-          <div class="bordelateral">
-              <a href=""><img class="img-fluid" src="https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Lateral/GRUPO.png?raw=true" alt="Responsive image" /></a>
-                <div class="pl-3 py-2 color-lateral d-flex justify-content-start">
-                  <a><button type="button" class="btn btn-outline-INFO btn-rounded waves-effect btn-sm btn-block"><+ INFO</button></a>
-                </div>
-              </div>
-
-
-
-      </div>
-  </div>
-
-    
-  <!-- /Start your project here-->
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js">
-
-  </script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
-  <script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDk2eHZvS3s1peF8k9hZLhxhFFxoqK2RVY",
-    authDomain: "miwebsite-dbd58.firebaseapp.com",
-    databaseURL: "https://miwebsite-dbd58.firebaseio.com",
-    projectId: "miwebsite-dbd58",
-    storageBucket: "miwebsite-dbd58.appspot.com",
-    messagingSenderId: "483567952823"
-  };
-  firebase.initializeApp(config);
-  </script>
-</body>
-
-</html>
+          </b:includable>
+  </b:widget>
+</b:section>
+</div>

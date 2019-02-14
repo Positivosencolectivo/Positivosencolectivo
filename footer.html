@@ -1,67 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Positivos en Colectivo</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet">
+<!DOCTYPE html> <!–declaramos nuestro documento –>
+<html lang="es"> <!–definimos el idioma –>
+<head> <!–encabezado del documento –>
+<b:skin>
+<![CDATA[/*
+<!–etiqueta especial de blogger utilizada para incluir los css–>
+———————————————–
+Blogger Template Style
+Name: Nombre de plantilla
+Author : Francisco Banegas
+License: libre
+Web site: Codesblue.info
+———————————————– */
+]]> </b:skin>
 </head>
-
-<body>
-
-  <div id="mdb-preloader" class="flex-center">
-    <div id="preloader-markup"></div>
-  </div>
-  <!-- Start your project here-->
-  <div class="container">
-    <div class="row">
-          <div class='social_bookmarks_container'>
-          <ul class='social_bookmarks'>
-            <li class='icontwitter'><a href='https://twitter.com/posencolectivo?lang=es'></a></li>
-            <li class='iconfacebook'><a href='http://facebook.com/'></a></li>
-            <li class='iconinstagram'><a href='https://www.instagram.com/positivosencolectivo/'></a></li>
-          </ul>
-        </div>
-        <h5>Sigue nuestras actividades en nuestras redes sociales</h5>
-      </div>
-    </div>
-    
-  <!-- /Start your project here-->
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js">
-
-  </script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
-  <script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDk2eHZvS3s1peF8k9hZLhxhFFxoqK2RVY",
-    authDomain: "miwebsite-dbd58.firebaseapp.com",
-    databaseURL: "https://miwebsite-dbd58.firebaseio.com",
-    projectId: "miwebsite-dbd58",
-    storageBucket: "miwebsite-dbd58.appspot.com",
-    messagingSenderId: "483567952823"
-  };
-  firebase.initializeApp(config);
-  </script>
+<body> <!–cuerpo de nuestro documento –>
+<b:section id="Header"> <!–Creamos el contenedor de nuestra aplicación –>
+<b:widget id="Header1" type="Header"> <!–Declaramos nuestra aplicación –>
+<b:includable id="main"><!–Cuerpo de nuestra aplicación la cual se encargara de almacenar nuestra variable <data> de blogger –>
+</b:includable>
+</b:widget>
+</b:section>
+<b:section id="main"><!–etiqueta especial de blogger utilizada para declara el cuerpo de nuestro aplicativo–>
+<b:widget id="Blog1" type="Blog"><!–declaramos aplicativo–>
+<b:includable id="main"><!–cuepo de nuestro aplicativo–>
+<b:loop values="data:posts" var="post" >
+<!–datos a mostrar–>
+<b:include name=’post’>
+</b:loop>
+</b:includable>
+<b:includable id=’post’>
+<b:if cond="data:view.isHomepage">
+<!–data:view.isHomepage si lo encontramos en la home muestra lo siguiente–>
+<a expr:href="data:post.url"> <data:post.title/></a>
+<!– data:post.title == titulo de mi articulo data:post.url == url hacia mi articulo –>
+<b:elseif cond="data:view.isPost"/>
+<!–data:view.isPost si lo encontramos dentro de un articulo muestra lo siguiente –>
+<h1><data:post.title/></h1>
+<data:post.body/>
+<!— data:post.title == titulo de mi articulo data:post:body == contenido de mi entrada –>
+<b:elseif cond="data:view.isPage" />
+<!–data:view.isPage si lo encontramos dentro de una pagina estatica muestra lo siguiente –>
+<h1><data:post.title/></h1>
+<data:post.body/>
+</b:if>
+</b:includable>
+</b:widget>
+</b:section>
 </body>
-
 </html>
