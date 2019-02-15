@@ -1,38 +1,17 @@
-body, html{ margin:0; padding:0;}
-.header{ border-top:1px solid white;background:white; color:#333; height:164px; width:100%; font-family: &#39;Lobster&#39;, cursive; text-align:center}
-.menu{ height:30px; width:100%; text-align:center; z-index: 3;}
-.wrapper{ height:auto; width:100%; padding-top:20px;}
-.fixed{position:fixed; top:0;padding-right: 60px;}
-.Encabezado{line-height: 1.4;font-size: 1.5rem;}
-.btn-danger {background-color: #ff3547!important;color: #fff!important;}
-.info-color-denuncia {background-color: #F61F31!important;}
-.info-color-consulta {background-color: #26B2E1!important;}
-.btn-rounded {-webkit-border-radius: 10em;border-radius: 10em;}
-.btn-outline-INFO {border: 2px solid #fa0015!important;background-color: transparent!important;color: #fa0015!important;}
-.color-lateral {background-color: #cdcece!important;height: auto;width: 100%;border-bottom-left-radius: .3rem;border-bottom-right-radius:.3rem;}
-.card-up {height: 170px;width:100%;border-top-left-radius: .25rem;border-top-right-radius: .25rem;position: absolute;z-index: 1;}
-.avatar { margin-left: auto!important; margin-right: auto!important; height: 250px; width:100%; position: relative; z-index: 2;}
-.rounded-circle {border-radius: 50%!important;border: white 10px solid;}
-.feed-links { visibility:hidden; display:none;}
-#blog-pager { visibility:hidden; display:none;}
-.borde{ background-image: linear-gradient(to right, red , white);height: 4px;width:100%;position: absolute;z-index: 1;}
-.PageList {text-align:right !important;}
-.PageList li {display:inline !important; float:none !important;}
-#footer-3 {display:inline !important; float:none !important;}
-.social_bookmarks_container {width:100%;height:auto;padding:0;position:relative;}
-.social_bookmarks {position:relative;float:left;margin:0;padding:0;}
-.social_bookmarks li {margin:0 0 15px 15px;height:60px;width:60px;list-style:none;float:left;padding:0;border-radius: 50%;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;box-shadow: 8px 4px 8px 0px #d1d1d1;}
-.social_bookmarks li a {float:left;width:57px;line-height:24px;display: block;text-indent: -99999px;margin:0px;outline: none;padding:0;min-height:57px;height:100%;text-decoration:none;}
-.social_bookmarks .iconfacebook{background: #b30000 url(&quot;https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Sprite/facebookFCFBFB.png?raw=true&quot;) center center no-repeat}
-.social_bookmarks .iconfacebook:hover{background-color: #3b5998;}
-.social_bookmarks .icontwitter{background: #b30000 url(&quot;https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Sprite/TwitterFCFBFB.png?raw=true&quot;) center center no-repeat}
-.social_bookmarks .icontwitter:hover{background-color: #00acee;}
-.social_bookmarks .iconinstagram{background: #b30000 url(&quot;https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Sprite/InstagramFCFBFB.png?raw=true&quot;) center center no-repeat}
-.social_bookmarks .iconinstagram:hover{background-color: #2A5B83;}
-.social_bookmarks li:hover a{background: transparent url(&quot;https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Sprite/icon-social-reflect.png?raw=true&quot;) no-repeat;}
-.footer-inner {padding-top: 30px; padding-right: 15px; padding-bottom: 30px;padding-left: 15px;}
-.bordelateral{border: 10px solid white!important;border-radius: .5rem;}
-.Attribution {visibility:hidden; display:none;}
-.widget {margin: 0px 0px 0px 00px; padding: 0px 0px 0px 0px;}
-.footer-inner{margin: 0px 0px 0px 00px; padding: 0px 0px 0px 0px;}
-.footer-outer {background: white;-moz-border-radius: 10px 10px 10px 10px;-webkit-border-top-left-radius: 10px;-webkit-border-top-right-radius: 10px;-webkit-border-bottom-left-radius: 10px;-webkit-border-bottom-right-radius: 10px;-goog-ms-border-radius: 10px 10px 10px 10px;border-radius: 10px 10px 10px 10px;-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);box-shadow: 0 0 0 rgba(0, 0, 0, .15);}
+html{scroll-behavior: smooth;}
+.Inicio{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Logos/Positivosencolectivo.png?raw=true");min-height: 100vh; background-position: center;background-repeat: no-repeat; background-size: cover;}
+.top-nav-collapse {background-color: #d50000 !important;}
+.Nosotros{background-image: url("../images/PNG/Fondos/FONDOAZULOSCURO.png");min-height: 100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.separador1{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/banderagay.jpg?raw=true");height:100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.separador2{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/banderagay.jpg?raw=true");height:100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.separador3{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/banderagay.jpg?raw=true");height:100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.separador4{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/banderagay.jpg?raw=true");height:100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.separador5{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/banderagay.jpg?raw=true");height:100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.separador6{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/banderagay.jpg?raw=true");height:100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.separador7{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/banderagay.jpg?raw=true");height:100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.separador8{background-image: url("https://github.com/Positivosencolectivo/Positivosencolectivo/blob/master/img/galeria/Fondos/banderagay.jpg?raw=true");height:100vh;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.navbar:not(.top-nav-collapse){background:#d500006b;}
+.secciones {width: 100%; height: 100vh;}
+.espacio {padding-top: 20vh;}
+.categoria1{width: 50%; height: 100vh; position: absolute;}
+.categoria5{width: 50%; height: 100vh; position: absolute;}
