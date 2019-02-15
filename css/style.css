@@ -15,3 +15,5 @@ html{scroll-behavior: smooth;}
 .espacio {padding-top: 20vh;}
 .categoria1{width: 50%; height: 100vh; position: absolute;}
 .categoria5{width: 50%; height: 100vh; position: absolute;}
+.nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {color: #2B5D82;border-bottom: .2vh solid #2B5D82;}
+.carousel-indicators li {box-sizing: content-box;-ms-flex: 0 1 auto;flex: 0 1 auto;width: 30px;height: 3px;margin-right: 3px;margin-left: 3px;text-indent: -999px;cursor: pointer;background-color: rgb(122, 16, 16);background-clip: padding-box;border: 2px solid red;opacity: .5;transition: opacity .6s ease;}
